@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+  </head>
+  <body>
+
+        
+      <div class="container d-flex flex-wrap justify-content-around">
+          <div class="card mt-5" style="width: 25rem;">
+            <div class="card-body">
+              <h5 class="card-title">Titre de l'évènement<br/></h5>
+              <h6 class="card-subtitle mb-2 text-muted">Organisateur : Oragnnisateur de l'event<br/></h6><br/>
+              <h6 class="card-subtitle mb-2 text-muted">Démarrage : date de démarrage<br/></h6><br/>
+              <p class="card-text"> Description : Description de l'event</p><br/>
+              <p class="card-text"> Prix : 100000€</p><br/>
+              <p class="card-text"> Localisation : France</p><br/>
+
+              </h6>
+              <hr class="divider my-4">
+
+              
+              <a class="btn btn-primary btn-update" href="<%=event_path(event.id)%>" role="button">Voir</a>
+              <a class="btn btn-success" href="#" role="button">Editer "à venir"</a>
+              <a class="btn btn-warning" href="<%=event_path(event.id)%>" role="button" data-confirm="Etes-vous sur?" data-method="DELETE" >Supprimer</a>
+              <hr class="divider my-4">
+              <a class="btn btn-primary btn-update" href="<%=event_path(event.id)%>" role="button">S'inscrire</a>
+            </div>
+          </div>
+    </div>
+
+    <script src="" async defer></script>
+  </body>
+</html>  
+      
+      

@@ -1,0 +1,110 @@
+/* BACKGROUND COLOR */
+.primary {
+	background-color: #847E24;
+}
+.secondary {
+	background-color: #C26B13;
+}
+.sucess {
+	background-color: #43AD23;
+}
+.danger {
+	background-color: #AD238F;
+}
+.info {
+	background-color: #234AAD;
+}
+.warning {
+	background-color: #CC4929;
+}
+
+/* TEXT COLOR */
+.dark {
+  color: #4A4336;	
+}
+.medium-light {
+  color: #615033;	
+}
+.light {
+  color: #C9B693;	
+}
+.text-primary {
+  color: #F0E118;	
+}
+.text-secondary {
+  color: #F08418;	
+}
+.text-sucess {
+  color: #57E02D;	
+}
+.text-danger{
+  color: #E02DBA;	
+}
+.text-info {
+  color: #2D60E0;	
+}
+.text-warning {
+  color: #FF5C33;	
+}
+
+/* FONT */
+.h1{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.h2{
+ 
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.h2{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.h3{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.h4{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.h5{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.h6{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.p{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.lead{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.blockquote{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.ul{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.ol{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.li{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* BUTTON */
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Green */
+.successs {
+  color: green;
+}
+
+.successs:hover {
+  background-color: #4CAF50;
+  color: white;
+}
